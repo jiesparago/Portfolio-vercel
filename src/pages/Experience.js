@@ -64,6 +64,45 @@ function Experience() {
           <p>Assist Project Manager/Officer in monitoring the progress of projects, implementations, and product
           initiatives.</p>
         </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="May-Aug 2022"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            KodeGo
+          </h3>
+          <p> Full Stack Web Development</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="Aug - Sept 2022"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+          Front-End Web Development 101 (Bayan Academy)
+          </h3>
+
+          <h4 className="vertical-timeline-element-subtitle">
+          
+          </h4>
+
+          <p> Front-End Web Development Certificate of Completion</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="Sept 2022 - present"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+          SparkLearn EdTech
+          </h3>
+          <p> Blockchain Developer Bootcamp</p>
+        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   )
